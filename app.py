@@ -5,7 +5,7 @@ import os
 # Configura tu clave de Gemini con variable de entorno
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
-model = genai.GenerativeModel("gemini-pro")
+model = genai.GenerativeModel("gemini-2.0-flash")
 
 app = Flask(__name__)
 
